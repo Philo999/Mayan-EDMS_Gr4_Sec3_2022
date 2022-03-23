@@ -8,7 +8,7 @@ from .classes import DocumentCreateWizardStep
 
 class DocumentCreateWizardStepDocumentType(DocumentCreateWizardStep):
     form_class = DocumentTypeFilteredSelectForm
-    label = _('Select document type')
+    label = _('เลือกระดับการศึกษา')
     name = 'document_type_selection'
     number = 0
 
