@@ -12,7 +12,7 @@ from .permissions import permission_tag_attach
 
 class DocumentCreateWizardStepTags(DocumentCreateWizardStep):
     form_class = TagMultipleSelectionForm
-    label = _('Select tags')
+    label = _('เลือกสาขาวิชา')
     name = 'tag_selection'
     number = 2
 
