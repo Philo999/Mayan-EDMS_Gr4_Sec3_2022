@@ -70,8 +70,8 @@ class DocumentCreateWizard(SessionWizardView):
                 'step_title': _(
                     'Step %(step)d of %(total_steps)d: %(step_label)s'
                 ) % {
-                    'step': self.steps.step1, 'total_steps': len(self.form_list),
-                    'step_label': wizard_step.label,
+                    'step': self.steps.step1, 'total_steps': 9,
+                    'step_label': wizard_step.label, #len(self.form_list)
                 },
                 'title': _('Document upload wizard'),
                 'wizard_step': wizard_step,
